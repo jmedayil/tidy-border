@@ -1,0 +1,36 @@
+#Note - it was easier for me to have the comments on top while I was coding. This is a copy and paste from PyCharm
+
+#str -> take var_1 input -> str var_1
+var_1 = input('Please enter an integer:  ')
+  
+#str -> take var_2 input -> str var_2
+var_2 = input('Please enter another integer:  ')
+ 
+#str -> convert var_1 to int -> int exp1
+exp1 = int(var_1)
+
+#str -> convert var_2 to int -> int exp2
+exp2 = int(var_2)
+ 
+#int -> raise var_1 to the power of var_2 -> int exp
+exp = exp1 ** exp2
+ 
+#int -> convert exp to str -> str border
+border = str(exp)
+ 
+#str -> get length of border -> int bor_len
+bor_len = len(border)
+  
+#int -> create border from bor_len ->str equal_border
+equal_border = '=' * bor_len
+  
+#str -> print top equal_border -> str equal_border
+print(equal_border)
+
+#int -> print value of exp -> int
+print(exp)
+ 
+#str -> print bottom equal_border -> str equal_border
+print(equal_border)
+
+#project ran successfully
